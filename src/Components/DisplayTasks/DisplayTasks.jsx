@@ -1,13 +1,15 @@
 import React from "react";
 import "./DisplayTasks.css";
-import TaskColumn from "../TaskColumn/TaskColumn";
+import TodoTaskColumn from "../TodoTaskColumn/TodoTaskColumn";
+import DoingTaskColumn from "../DoingTaskColumn/DoingTaskColumn";
+import DoneTaskColumn from "../DoneTaskColumn/DoneTaskColumn";
 
 const DisplayTasks = () => {
   return (
     <div className="grid-column-three">
-      <TaskColumn taskType={"To-do"} />
-      <TaskColumn taskType={"Doing"} />
-      <TaskColumn taskType={"Done"} />
+      <TodoTaskColumn />
+      <DoingTaskColumn />
+      <DoneTaskColumn />
     </div>
   );
 };

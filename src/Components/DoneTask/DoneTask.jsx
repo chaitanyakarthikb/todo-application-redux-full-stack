@@ -1,11 +1,17 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { DELETE_DONE_TASK } from "../../Actions/actionsConstants";
 
-const DoneTask = () => {
+const DoneTask = ({ task }) => {
+  const dispatch = useDispatch();
+  const handleDeleteTask = () => {
+    dispatch({ type: DELETE_DONE_TASK, payload: task.id });
+  };
   return (
     <div className="task done">
-      <h2>This is my Task Component</h2>
+      <h2>{task?.name}</h2>
       <div className="buttons">
-        <button>Delete</button>
+        <button onClick={() => handleDeleteTask()}>Delete</button>
       </div>
     </div>
   );

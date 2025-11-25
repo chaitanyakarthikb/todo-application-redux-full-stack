@@ -1,0 +1,19 @@
+{
+  "todoTasks": [],
+  "inProgressTasks": [],
+  "doneTasks": [
+    {
+      "id": "5",
+      "name": "This is my Task Component - 5",
+      "status": "done"
+    },
+    {
+      "id": "dd835e0e-5425-4a76-99cf-fe03ec98603e",
+      "name": "check"
+    },
+    {
+      "id": "c72f0f6d-06c9-403f-9f14-e1c2ea188d5c",
+      "name": "tempCheck"
+    }
+  ]
+}
