@@ -1,0 +1,27 @@
+.input{
+  text-align: center;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input input{
+  width: 50%;
+  font-size: 1.25rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border: none;
+}
+
+
+.input button{
+  height: 34px;
+  border: none;
+  background-color: rgb(75 73 255);
+  color: white;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

@@ -1,0 +1,7 @@
+.grid-column-three{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
